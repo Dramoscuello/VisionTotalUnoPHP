@@ -42,7 +42,7 @@
                             </div>
                             <div data-thumb="images/slides/min/somec.jpg" data-src="images/slides/somec.jpg">
                                 <div class="camera_caption fadeFromBottom">
-                                    Ubicada en Montería en la Calle calle 28 en Montería Córdoba
+                                    Ubicada en la Calle calle 28 en Montería - Córdoba
                                 </div>
                             </div>
                             <div data-thumb="images/slides/min/TOMOGRAFO.jpg" data-src="images/slides/TOMOGRAFO.jpg">

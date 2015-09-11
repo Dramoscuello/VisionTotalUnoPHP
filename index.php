@@ -72,8 +72,8 @@
                   <h4 class='modal-title' id='myModalLabel'><span class="icon-clock"></span><strong> HORARIOS</strong></h4>
                 </div>
                 <div class='modal-body'>
-                  <div><h4><span class="icon-clock"></span> Lunes a viernes de 7:00 a.m. 12 pm y 2:00 pm - 6:00 p.m.</h4></div>
-                            <div><h4><span class="icon-clock"></span> Sábado de 8:00 am – 11:00 am.</h4></div>
+                  <div><h4><span class="icon-clock"></span> Lunes a viernes de 7:00 a.m. - 12 p.m. y 2:00 p.m. - 6:00 p.m.</h4></div>
+                            <div><h4><span class="icon-clock"></span> Sábado de 8:00 a.m. – 11:00 a.m.</h4></div>
                 </div>
                 <div class='modal-footer'>
                     <a href='void:javascript(0)' data-dismiss='modal' class='btn btn-primary'> <span class="glyphicon glyphicon-ok"></span> Ok</a>

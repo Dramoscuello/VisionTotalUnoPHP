@@ -29,13 +29,13 @@
 						<div><p>Calle 28 # 7-34 Edificio SOMEC 7894147 – 7894165- Montería- Córdoba</p></div>
 						<div class="my-gallery">
 				            <figure>
-				                <a href="images/galeria/sede28.jpg" itemprop="contentUrl" data-size="785x490">
-				                <img src="images/galeria/min/sede28.jpg" itemprop="thumbnail" alt="Image description" />
+				                <a href="images/galeria/sede28.jpg"  class="img_min" itemprop="contentUrl" data-size="823x549">
+				                <img src="images/galeria/min/sede28.jpg" itemprop="thumbnail" alt="sede 28, vision total" />
 				                </a>							  
 				            </figure>
 				            <figure>
-				                <a href="images/galeria/somec.jpg" itemprop="contentUrl" data-size="823x617">
-				                <img src="images/galeria/min/somec.jpg" itemprop="thumbnail" alt="Image description" />
+				                <a href="images/galeria/somec.jpg"  class="img_min" itemprop="contentUrl" data-size="823x617">
+				                <img src="images/galeria/min/somec.jpg" itemprop="thumbnail" alt="edificio somec, vision total" />
 				                </a>
 				            </figure>
 				        </div>
@@ -52,8 +52,8 @@
 						<div><p>Calle 29 N° 5 – 23 - Montería - Córdoba</p></div>
 						<div class="my-gallery">
 				            <figure>
-				                <a href="images/galeria/sede29.jpg" itemprop="contentUrl" data-size="611x620">
-				                <img src="images/galeria/min/sede29.jpg" itemprop="thumbnail" alt="Image description" />
+				                <a href="images/galeria/sede29.jpg"  class="img_min" itemprop="contentUrl" data-size="611x620">
+				                <img src="images/galeria/min/sede29.jpg" itemprop="thumbnail" alt="sede 29, vision total" />
 				                </a>							  
 				            </figure>
 				        </div>						
@@ -104,8 +104,7 @@
     <script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
 	<script>
 		var map;
-		function initialize() 
-		{
+		function initialize(){
 			var mapOptions = {
 				zoom: 19,
 				scrollwheel: false,
@@ -118,8 +117,7 @@
 	</script>
 	<script>
 		var map1;
-		function initialize() 
-		{
+		function initialize(){
 			var mapOptions = {
 				zoom: 19,
 				scrollwheel: false,

@@ -37,7 +37,13 @@
 		                <div class="col-md-8">
 		                  <input type="tel" class="form-control" id="telefono" placeholder="Telefono (opcional)">
 		                </div>
-		              </div>
+		              	</div>
+		              	<div class="form-group">
+		                <label for="asunto" class="col-md-4 control-label"><span class="glyphicon glyphicon-tag"></span> Asunto:</label>
+		                <div class="col-md-8">
+		                  <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+		                </div>
+		              	</div>
 		                <div class="form-group">
 		                <label for="mensaje" class="col-md-4 control-label"><span class="glyphicon glyphicon-pencil"></span> Mensaje:</label>
 		                <div class="col-md-8">

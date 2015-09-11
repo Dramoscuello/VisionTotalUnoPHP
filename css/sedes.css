@@ -29,6 +29,18 @@
 	height: 300px;
 }
 
+.img_min{
+	transition: 1s all ease;
+}
+
+.img_min:hover{
+	transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+
 /*galeria photoSwipe*/
 .my-gallery {
   width: 100%;

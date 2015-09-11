@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 titulo_contacto">
-					<h2>CONTACTO</h2>
+					<h2><span class="glyphicon glyphicon-envelope"></span> CONTACTO</h2>
 				</div>
 			</div>
 			<div class="row">

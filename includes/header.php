@@ -8,8 +8,8 @@
                 <li class="servicios_show"><a href="#"><span class="icon-eye"></span> Servicios <span class="glyphicon glyphicon-chevron-down"></span></a>
                      <ul class="servicios_hidden">
                         <li><a href="#">Consultas</a></li>
-                        <li><a href="#">Exámenes y diagnósticos</a></li>
-                        <li><a href="#">cirugias oftalmológicas</a></li>
+                        <li><a href="#">Ex&aacute;menes y diagn&oacute;sticos</a></li>
+                        <li><a href="#">cirugias oftalmol&oacute;gicas</a></li>
                         <li><a href="#">Especialistas</a></li>
                         <li><a href="#">Equipo</a></li>
                     </ul>
@@ -22,7 +22,7 @@
                         <li><a href="#">guia del usuario</a></li>
                         <li><a href="#">deberes y derechos</a></li>
                         <li><a href="#">indicaciones pre y post operatorias</a></li>
-                        <li><a href="#">indicaciones de ayudas y exámenes</a></li>
+                        <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>
                     </ul>
                 </li>
                 <li><a href="#"><span class="icon-checkmark2"></span> Novedades</a></li>
@@ -83,8 +83,8 @@
                                 <li><a href="#"><span class="icon-eye"></span> SERVICIOS <span class="glyphicon glyphicon-chevron-down"></span></a>
                                     <ul>
                                         <li><a href="#">Consultas</a></li>
-                                        <li><a href="#">Exámenes y diagnósticos</a></li>
-                                        <li><a href="#">cirugias oftalmológicas</a></li>
+                                        <li><a href="#">Ex&aacute;menes y diagn&oacute;sticos</a></li>
+                                        <li><a href="#">cirugias oftalmol&oacute;gicas</a></li>
                                         <li><a href="#">Especialistas</a></li>
                                         <li><a href="#">Equipo</a></li>
                                     </ul>
@@ -97,7 +97,7 @@
                                         <li><a href="#">guia del usuario</a></li>
                                         <li><a href="#">deberes y derechos</a></li>
                                         <li><a href="#">indicaciones pre y post operatorias</a></li>
-                                        <li><a href="#">indicaciones de ayudas y exámenes</a></li>
+                                        <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#"><span class="icon-checkmark2"></span> NOVEDADES</a></li>

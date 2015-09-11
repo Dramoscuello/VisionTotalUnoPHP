@@ -1,0 +1,19 @@
+.body_contacto{
+	margin: 30px 0px;
+}
+.titulo_contacto{
+	background-color: #08085F;
+	text-align: center;
+	color:white;
+	margin-bottom: 20px;
+}
+.imagen_contacto{
+	width:100%;
+	height: auto;
+	box-shadow: 0px 0px 5px black;
+}
+@media (max-width: 768px) {
+	.titulo_contacto h2{
+		font-size: 20px;
+	}
+}	

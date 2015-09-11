@@ -26,7 +26,7 @@
                     </ul>
                 </li>
                 <li><a href="#"><span class="icon-checkmark2"></span> Novedades</a></li>
-                <li><a href="#"><span class="icon-mail4"></span> Contacto</a></li>
+                <li><a href="contacto.php"><span class="icon-mail4"></span> Contacto</a></li>
             </ul>
         </nav>
         <!-- fin Menu mobile-->
@@ -48,7 +48,7 @@
                             </a>
                         </div>
                         <span class="icon-search col-md-1 col-lg-1 icon"></span>
-                        <a href="#" class="col-md-1 col-lg-1 contacto_header"> Contacto</a>
+                        <a href="contacto.php" class="col-md-1 col-lg-1 contacto_header"> Contacto</a>
                     </div>
                      
                     <!-- fin cabecera grande -->

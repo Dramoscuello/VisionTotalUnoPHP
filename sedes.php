@@ -25,7 +25,7 @@
 			<div class="container">
 				<div class="row">
 					<div id="principal-info" class="col-xs-12 col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2">
-						<h3><span class="icon-location"></span> SEDE PRINCIPAL</h3>
+						<h3><span class="icon-location"></span> <strong>SEDE PRINCIPAL</strong></h3>
 						<div><p>Calle 28 # 7-34 Edificio SOMEC 7894147 – 7894165- Montería- Córdoba</p></div>
 						<div class="my-gallery">
 				            <figure>
@@ -48,7 +48,7 @@
 			<div class="container">
 				<div class="row">
 					<div id="ayudas-info" class="col-xs-12 col-sm-5 col-sm-offset-2 col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2">
-						<h3><span class="icon-location"></span> SEDE AYUDAS DIAGNOSTICAS</h3>
+						<h3><span class="icon-location"></span> <strong>SEDE AYUDAS DIAGNOSTICAS</strong></h3>
 						<div><p>Calle 29 N° 5 – 23 - Montería - Córdoba</p></div>
 						<div class="my-gallery">
 				            <figure>

@@ -17,21 +17,19 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 titulo_quienes">
                         <h2><img src="images/logo_navegacion.png"> Quienes somos</h2>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
-                        <h3>Presentación</h3>
-                        <p>VISION TOTAL S.A.S., es una institución  que se ha preparado para asumir el reto de la prestación de los servicios de salud,  con énfasis en salud visual, dentro del nuevo marco de la seguridad social en salud; ofreciendo a la comunidad servicios de alta calidad en busca de un futuro cada vez más saludable.<br>
+                    </div> 
+                    
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 acordeon">
+                <div id="accordion">
+                  <h3>PRESENTACIÓN <span class="glyphicon glyphicon-chevron-down"></span></h3>
+                  <div>
+                    <p>VISION TOTAL S.A.S., es una institución  que se ha preparado para asumir el reto de la prestación de los servicios de salud,  con énfasis en salud visual, dentro del nuevo marco de la seguridad social en salud; ofreciendo a la comunidad servicios de alta calidad en busca de un futuro cada vez más saludable.<br>
                             <br>
 
 
 Nuestro compromiso es prestar servicios cada día más eficientes y oportunos, garantizando estándares de calidad que contribuyan  al mejoramiento de la salud visual  de nuestra población.
 </p>
-                    </div>
-                    <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12"><img class="imagenes_quienes img-thumbnail" src="images/quienes.JPG" alt="quienes somos, vision total"></div>
-                    
-                    
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 acordeon">
-                <div id="accordion">
+                  </div>
                   <h3>MISION <span class="glyphicon glyphicon-chevron-down"></span></h3>
                   <div>
                     <p>VISIÓN TOTAL S.A.S., es una Institución Prestadora de Servicios de Salud Visual, respetuosa de los derechos de los pacientes, que trabaja en pro de su seguridad, bajo estándares de calidad, apoyados en un equipo humano idóneo y una infraestructura adecuada para la atención.

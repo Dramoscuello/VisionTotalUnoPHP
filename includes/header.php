@@ -14,7 +14,7 @@
                         <li><a href="#">Equipo</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><span class="icon-office"></span> Sedes</a></li>
+                <li><a href="sedes.php"><span class="icon-office"></span> Sedes</a></li>
                 <li class="pacientes_show"><a href="#"><span class="icon-aid-kit"></span> Pacientes <span class="glyphicon glyphicon-chevron-down"></span></a>
                     <ul class="pacientes_hidden">
                         <li><a href="#">Paciente internacional</a></li>
@@ -89,7 +89,7 @@
                                         <li><a href="#">Equipo</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#"><span class="icon-office"></span> SEDES</a></li>
+                                <li><a href="sedes.php"><span class="icon-office"></span> SEDES</a></li>
                                 <li><a href="#"><span class="icon-aid-kit"></span> PACIENTES <span class="glyphicon glyphicon-chevron-down"></span></a>
                                     <ul>
                                         <li><a href="#">Paciente internacional</a></li>

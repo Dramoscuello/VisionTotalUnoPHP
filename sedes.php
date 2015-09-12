@@ -110,7 +110,7 @@
 			var mapOptions = {
 				zoom: 19,
 				scrollwheel: false,
-				center: new google.maps.LatLng(8.763711, -75.897191)
+				center: new google.maps.LatLng(8.753823, -75.883724)
 			};
 			map = new google.maps.Map(document.getElementById('map-canvasuno'),
 			mapOptions);
@@ -123,7 +123,7 @@
 			var mapOptions = {
 				zoom: 19,
 				scrollwheel: false,
-				center: new google.maps.LatLng(8.7643206, -75.8966327)
+				center: new google.maps.LatLng(8.7553605, -75.8847878)
 			};
 			map1 = new google.maps.Map(document.getElementById('map-canvasdos'),
 			mapOptions);

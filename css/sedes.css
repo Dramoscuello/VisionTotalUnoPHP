@@ -41,6 +41,16 @@
 	-webkit-transform: scale(1.2);
 }
 
+#principal_icon{
+	float:right;
+	cursor: pointer;
+	margin:3px;
+}
+#ayudas_icon{
+	float:right;
+	cursor: pointer;
+	margin:3px;
+}
 /*galeria photoSwipe*/
 .my-gallery {
   width: 100%;

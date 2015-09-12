@@ -25,9 +25,10 @@
 			<div class="container">
 				<div class="row">
 					<div id="principal-info" class="col-xs-12 col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2">
-						<h3><span class="icon-location"></span> <strong>SEDE PRINCIPAL</strong></h3>
-						<div><p>Calle 28 # 7-34 Edificio SOMEC 7894147 – 7894165- Montería- Córdoba</p></div>
-						<div class="my-gallery">
+						<span class="icon-minus hidden-xs" id="principal_icon"></span>
+						<h3 id="principal_titulo"><span class="icon-location"></span> <strong>SEDE PRINCIPAL</strong></h3>
+						<div id="principal_text"><p>Calle 28 # 7-34 Edificio SOMEC 7894147 – 7894165- Montería- Córdoba</p></div>
+						<div class="my-gallery" id="principal_galeria">
 				            <figure>
 				                <a href="images/galeria/sede28.jpg"  class="img_min" itemprop="contentUrl" data-size="823x549">
 				                <img src="images/galeria/min/sede28.jpg" itemprop="thumbnail" alt="sede 28, vision total" />
@@ -48,9 +49,10 @@
 			<div class="container">
 				<div class="row">
 					<div id="ayudas-info" class="col-xs-12 col-sm-5 col-sm-offset-2 col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2">
-						<h3><span class="icon-location"></span> <strong>SEDE AYUDAS DIAGNOSTICAS</strong></h3>
-						<div><p>Calle 29 N° 5 – 23 - Montería - Córdoba</p></div>
-						<div class="my-gallery">
+						<span class="icon-minus hidden-xs" id="ayudas_icon"></span>
+						<h3 id="ayudas_titulo"><span class="icon-location"></span> <strong>SEDE AYUDAS DIAGNOSTICAS</strong></h3>
+						<div id="ayudas_text"><p>Calle 29 N° 5 – 23 - Montería - Córdoba</p></div>
+						<div class="my-gallery" id="ayudas_galeria">
 				            <figure>
 				                <a href="images/galeria/sede29.jpg"  class="img_min" itemprop="contentUrl" data-size="611x620">
 				                <img src="images/galeria/min/sede29.jpg" itemprop="thumbnail" alt="sede 29, vision total" />
@@ -128,5 +130,56 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var menos = true;
+			function main(){
+				if (menos == true) {
+					$('#principal_icon').removeClass('icon-minus');
+					$('#principal_icon').addClass('icon-plus');
+					document.getElementById('principal-info').style.height = "20px";
+					document.getElementById('principal_titulo').style.display = "none";
+					document.getElementById('principal_text').style.display = "none";
+					document.getElementById('principal_galeria').style.display = "none";
+					menos = false;
+				}else{
+					$('#principal_icon').removeClass('icon-plus');
+					$('#principal_icon').addClass('icon-minus');
+					document.getElementById('principal-info').style.height = "300px";
+					document.getElementById('principal_titulo').style.display = "block";
+					document.getElementById('principal_text').style.display = "block";
+					document.getElementById('principal_galeria').style.display = "block";
+					menos = true;
+				}
+				
+			}
+			var ayuda = false;
+			function ayudasf(){
+				if (ayuda == true) {
+					$('#ayudas_icon').removeClass('icon-minus');
+					$('#ayudas_icon').addClass('icon-plus');
+					document.getElementById('ayudas-info').style.height = "20px";
+					document.getElementById('ayudas_titulo').style.display = "none";
+					document.getElementById('ayudas_text').style.display = "none";
+					document.getElementById('ayudas_galeria').style.display = "none";
+					ayuda = false;
+				}else{
+					$('#ayudas_icon').removeClass('icon-plus');
+					$('#ayudas_icon').addClass('icon-minus');
+					document.getElementById('ayudas-info').style.height = "300px";
+					document.getElementById('ayudas_titulo').style.display = "block";
+					document.getElementById('ayudas_text').style.display = "block";
+					document.getElementById('ayudas_galeria').style.display = "block";
+					ayuda = true;
+				}
+				
+			}
+
+			$('#principal_icon').on('click', main);
+			$('#ayudas_icon').on('click', ayudasf);
+		});
+	</script>
+	
+
 </body>
 </html>

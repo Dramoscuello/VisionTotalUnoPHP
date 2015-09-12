@@ -139,7 +139,9 @@ Carrera 29 # 14-99 Piso 1 Doosta, B/ El Campestre  Tel: 762 5736
         <?php include 'includes/foot_common.php'; ?>
         <script src="js/jquery-ui.js"></script>
         <script>
-            $( "#accordion" ).accordion();
+        $(document).ready(function() {
+             $( "#accordion" ).accordion();
+         });
         </script>
     </body>       
 </html>

@@ -7,7 +7,7 @@
                 </li>
                 <li class="servicios_show"><a href="#"><span class="icon-eye"></span> Servicios <span class="glyphicon glyphicon-chevron-down"></span></a>
                      <ul class="servicios_hidden">
-                        <li><a href="#">Consultas</a></li>
+                        <li><a href="consultas.php">Consultas</a></li>
                         <li><a href="examenes_y_dagnosticos.php">Ex&aacute;menes y diagn&oacute;sticos</a></li>
                         <li><a href="procedimientos_quirurgicos.php">cirugias oftalmol&oacute;gicas</a></li>
                         <li><a href="especialistas.php">Especialistas</a></li>
@@ -82,7 +82,7 @@
                                 </li>
                                 <li><a href="#"><span class="icon-eye"></span> SERVICIOS <span class="glyphicon glyphicon-chevron-down"></span></a>
                                     <ul>
-                                        <li><a href="#">Consultas</a></li>
+                                        <li><a href="consultas.php">Consultas</a></li>
                                         <li><a href="examenes_y_dagnosticos.php">Ex&aacute;menes y diagn&oacute;sticos</a></li>
                                         <li><a href="procedimientos_quirurgicos.php">cirugias oftalmol&oacute;gicas</a></li>
                                         <li><a href="especialistas.php">Especialistas</a></li>

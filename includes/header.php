@@ -8,9 +8,9 @@
                 <li class="servicios_show"><a href="#"><span class="icon-eye"></span> Servicios <span class="glyphicon glyphicon-chevron-down"></span></a>
                      <ul class="servicios_hidden">
                         <li><a href="#">Consultas</a></li>
-                        <li><a href="#">Ex&aacute;menes y diagn&oacute;sticos</a></li>
-                        <li><a href="#">cirugias oftalmol&oacute;gicas</a></li>
-                        <li><a href="#">Especialistas</a></li>
+                        <li><a href="examenes_y_dagnosticos.php">Ex&aacute;menes y diagn&oacute;sticos</a></li>
+                        <li><a href="procedimientos_quirurgicos.php">cirugias oftalmol&oacute;gicas</a></li>
+                        <li><a href="especialistas.php">Especialistas</a></li>
                         <li><a href="#">Equipo</a></li>
                     </ul>
                 </li>
@@ -20,8 +20,8 @@
                         <li><a href="#">Paciente internacional</a></li>
                         <li><a href="#">medios y formas de pago</a></li>
                         <li><a href="#">guia del usuario</a></li>
-                        <li><a href="#">deberes y derechos</a></li>
-                        <li><a href="#">indicaciones pre y post operatorias</a></li>
+                        <li><a href="deberes_y_derechos.php">deberes y derechos</a></li>
+                        <li><a href="indicaciones_pacientes.php">indicaciones pre y post operatorias</a></li>
                         <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>
                     </ul>
                 </li>
@@ -83,9 +83,9 @@
                                 <li><a href="#"><span class="icon-eye"></span> SERVICIOS <span class="glyphicon glyphicon-chevron-down"></span></a>
                                     <ul>
                                         <li><a href="#">Consultas</a></li>
-                                        <li><a href="#">Ex&aacute;menes y diagn&oacute;sticos</a></li>
-                                        <li><a href="#">cirugias oftalmol&oacute;gicas</a></li>
-                                        <li><a href="#">Especialistas</a></li>
+                                        <li><a href="examenes_y_dagnosticos.php">Ex&aacute;menes y diagn&oacute;sticos</a></li>
+                                        <li><a href="procedimientos_quirurgicos.php">cirugias oftalmol&oacute;gicas</a></li>
+                                        <li><a href="especialistas.php">Especialistas</a></li>
                                         <li><a href="#">Equipo</a></li>
                                     </ul>
                                 </li>
@@ -95,8 +95,8 @@
                                         <li><a href="#">Paciente internacional</a></li>
                                         <li><a href="#">medios y formas de pago</a></li>
                                         <li><a href="#">guia del usuario</a></li>
-                                        <li><a href="#">deberes y derechos</a></li>
-                                        <li><a href="#">indicaciones pre y post operatorias</a></li>
+                                        <li><a href="deberes_y_derechos.php">deberes y derechos</a></li>
+                                        <li><a href="indicaciones_pacientes.php">indicaciones pre y post operatorias</a></li>
                                         <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>
                                     </ul>
                                 </li>

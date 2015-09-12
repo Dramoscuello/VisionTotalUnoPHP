@@ -56,7 +56,7 @@
                     <a href="#" class="botones_apartado" id="citas"><span class="icon-users"></span> Citas particulares</a>
                     <a href="#" class="botones_apartado" id="drogueria"><span class="icon-lab"></span> Drogueria</a>
                     <a href="#" class="botones_apartado" id="examenes"><span class="icon-file-text"></span> Exámenes disgnosticos</a>
-                    <a href="#" class="botones_apartado" id="cirugias"><span class="icon-eye"></span> Cirugias oftalmológicas</a>
+                    <a href="procedimientos_quirurgicos.php" class="botones_apartado" id="cirugias"><span class="icon-eye"></span> Cirugias oftalmológicas</a>
                     <a href="void:javascript(0)" class="botones_apartado" id="horarios" data-toggle="modal" data-target=".login"><span class="icon-clock"></span> Horarios</a>                    
                 </div>
                 </div>

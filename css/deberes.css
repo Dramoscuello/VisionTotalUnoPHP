@@ -1,0 +1,19 @@
+.body_deberes{
+	margin: 30px 0px;
+}
+.tab-content{
+	padding: 20px;
+	background-color: white;
+	color:black;
+	font-size: 16px;
+}
+.titulo_deberes{
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #2639BE;
+	color:white;
+	margin-bottom: 20px;
+}
+.tab-content ol, .tab-content ul{
+	padding:10px;
+}

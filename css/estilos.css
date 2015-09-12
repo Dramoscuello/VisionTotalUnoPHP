@@ -25,7 +25,8 @@ header{
     margin: 0;
     padding:0;
     color:#0000CC;
-    font-size: 1.6em;
+    font-size: 1.4em;
+    letter-spacing: -3px;
 }
 #titulo_vision:hover{
     color:#0000CC;

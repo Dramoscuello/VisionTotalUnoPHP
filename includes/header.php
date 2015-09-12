@@ -43,8 +43,8 @@
                      <!-- cabecera grande -->
                     <div class="row hidden-xs hidden-sm">
                         <div class="col-md-10 col-lg-10">
-                            <a href="#" id="titulo_vision">
-                                <h1><img src="images/logo_vision.png" alt="Logo principal, Visión total">Visi&oacute;n Total</h1>
+                            <a href="index.php" id="titulo_vision">
+                                <h1><img src="images/logo_vision.png" alt="Logo principal, Visión total"> VISION TOTAL</h1>
                             </a>
                         </div>
                         <span class="icon-search col-md-1 col-lg-1 icon"></span>
@@ -59,8 +59,8 @@
                      <div class="row visible-xs logo-xs visible-sm cabecera_small">
                         <span class="icon-list2 icon-xs col-xs-2 col-sm-1" id="mostrar-nav"></span>
                          <div class="col-xs-8 col-sm-10">
-                            <a href="#" id="titulo_vision_xs">
-                                <h1><img src="images/logo_vision.png" alt="Logo principal, Visión total">Visi&oacute;n Total</h1>
+                            <a href="index.php" id="titulo_vision_xs">
+                                <h1><img src="images/logo_vision.png" alt="Logo principal, Visión total"> VISION TOTAL</h1>
                              </a>
                          </div>
                          <span class="icon-search icon-xs col-xs-2 col-sm-1"></span>

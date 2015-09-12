@@ -153,7 +153,7 @@
 				}
 				
 			}
-			var ayuda = false;
+			var ayuda = true;
 			function ayudasf(){
 				if (ayuda == true) {
 					$('#ayudas_icon').removeClass('icon-minus');

@@ -36,15 +36,15 @@
         <!-- Cabecera de la página -->
         <header>
             <div class="header">
-                <h1>Visión Total</h1>
+                
                  <div class="container">
                      
                      
                      <!-- cabecera grande -->
                     <div class="row hidden-xs hidden-sm">
                         <div class="col-md-10 col-lg-10">
-                            <a href="#">
-                                <img src="images/logo.png" alt="Logo principal, Visión total">
+                            <a href="#" id="titulo_vision">
+                                <h1><img src="images/logo_vision.png" alt="Logo principal, Visión total">Visi&oacute;n Total</h1>
                             </a>
                         </div>
                         <span class="icon-search col-md-1 col-lg-1 icon"></span>
@@ -59,8 +59,8 @@
                      <div class="row visible-xs logo-xs visible-sm cabecera_small">
                         <span class="icon-list2 icon-xs col-xs-2 col-sm-1" id="mostrar-nav"></span>
                          <div class="col-xs-8 col-sm-10">
-                            <a href="#">
-                                <img src="images/logo-xs.png" alt="logo principal en pantallas xs">
+                            <a href="#" id="titulo_vision_xs">
+                                <h1><img src="images/logo_vision.png" alt="Logo principal, Visión total">Visi&oacute;n Total</h1>
                              </a>
                          </div>
                          <span class="icon-search icon-xs col-xs-2 col-sm-1"></span>

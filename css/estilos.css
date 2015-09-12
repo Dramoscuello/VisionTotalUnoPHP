@@ -9,34 +9,53 @@ body{
 }
 
 header{
-    /*background-color: #08085f;*/
-   background: rgb(8,8,95);
-background: -moz-linear-gradient(45deg,  rgba(8,8,95,1) 0%, rgba(30,87,153,1) 14%, rgba(30,87,153,1) 37%, rgba(8,8,95,1) 100%);
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(8,8,95,1)), color-stop(14%,rgba(30,87,153,1)), color-stop(37%,rgba(30,87,153,1)), color-stop(100%,rgba(8,8,95,1)));
-background: -webkit-linear-gradient(45deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 14%,rgba(30,87,153,1) 37%,rgba(8,8,95,1) 100%);
-background: -o-linear-gradient(45deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 14%,rgba(30,87,153,1) 37%,rgba(8,8,95,1) 100%);
-background: -ms-linear-gradient(45deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 14%,rgba(30,87,153,1) 37%,rgba(8,8,95,1) 100%);
-background: linear-gradient(45deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 14%,rgba(30,87,153,1) 37%,rgba(8,8,95,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08085f', endColorstr='#08085f',GradientType=1 );
-
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -o-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -ms-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
     -webkit-transition: all ease .4s;
     transition: all ease .4s;
     -ms-transition: all ease .4s;
     -moz-transition: all ease .4s;
     -o-transition: all ease .4s;
 }
-
-h1{
-    display: none;
+#titulo_vision{
+    margin: 0;
+    padding:0;
+    color:#0000CC;
+    font-size: 1.6em;
 }
-
+#titulo_vision:hover{
+    color:#0000CC;
+    text-decoration: none;
+}
+#titulo_vision h1{
+    margin: 2px;
+    padding:2px;
+}
+#titulo_vision_xs{
+    margin: 0;
+    padding:0;
+    color:#0000CC;
+    font-size: 1em;
+}
+#titulo_vision_xs:hover{
+    color:#0000CC;
+    text-decoration: none;
+}
+#titulo_vision_xs h1{
+    margin: 2px;
+    padding:2px;
+}
 .contacto_header{
     display: block;
     height: 66px;
     background-color: rgba(255, 255, 255,.3);
     padding: 24px 10px;
     text-align: center;
-    color: white;
+    color: #0000CC;
     font-size: 0.9em;
     text-transform: uppercase;
     transition: .5s all ease;
@@ -44,14 +63,15 @@ h1{
 }
 .contacto_header:hover{
     text-decoration: none;
-    color: rgba(17, 11, 105,.6);
+    color: #102675;
+    font-weight: bold;
     background-color: white;
 }
 .icon{
     display: block;
     height: 66px;
     cursor: pointer;
-    color: white;
+    color: #0000CC;
     font-size: 2em;
     text-align: center;
     padding: 20px 0px;
@@ -59,25 +79,20 @@ h1{
 }
 .icon:hover{
     background: white;
-    color: rgba(17, 11, 105,.6);
+    color: #0000CC;
+    font-weight: bold;
 }
 .icon-xs{
     display: block;
     height: 66px;
     cursor: pointer;
-    color: white;
+    color: #0000CC;
     font-size: 1.2em;
     text-align: center;
     padding: 20px 0px;
     transition: .3s all ease;
 }
-.icon-xs:hover{
-    background: white;
-    color: rgba(17, 11, 105,.6);
-}
-.logo-xs{
-    text-align: center;
-}
+
 .cont_nav_big{
     -webkit-transition: .3s all ease;
     transition: .3s all ease;
@@ -86,7 +101,7 @@ h1{
     list-style: none;
 }
 .nav_big ul li a{
-    color: white;
+    color: #0000CC;
     padding: 10px 15px;
     display: block;
     text-transform: uppercase;
@@ -95,7 +110,7 @@ h1{
     text-decoration: none;
 }
 .nav ul li ul li a{
-    background: #08085f;
+    background: white;
 }
 .nav_big > ul > li{
     display: inline-block;
@@ -350,7 +365,8 @@ footer{
     top: 0;
     z-index: 1000;
     position: fixed;
-    background-color: #08085f;
+    background-color: white;
+
     right: 0;
     left: 0;
     box-shadow: 0px 2px 2px rgba(0,0,0,.5);
@@ -359,11 +375,20 @@ footer{
     -moz-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
     -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
 } 
+
 .fixednavbig{
     top: 0;
     z-index: 1000;
     position: fixed;
-    background-color: #08085f;
+    background: rgb(8,8,95);
+background: -moz-linear-gradient(-45deg,  rgba(8,8,95,1) 0%, rgba(30,87,153,1) 72%, rgba(30,87,153,1) 91%, rgba(8,8,95,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(8,8,95,1)), color-stop(72%,rgba(30,87,153,1)), color-stop(91%,rgba(30,87,153,1)), color-stop(100%,rgba(8,8,95,1)));
+background: -webkit-linear-gradient(-45deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 72%,rgba(30,87,153,1) 91%,rgba(8,8,95,1) 100%);
+background: -o-linear-gradient(-45deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 72%,rgba(30,87,153,1) 91%,rgba(8,8,95,1) 100%);
+background: -ms-linear-gradient(-45deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 72%,rgba(30,87,153,1) 91%,rgba(8,8,95,1) 100%);
+background: linear-gradient(135deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 72%,rgba(30,87,153,1) 91%,rgba(8,8,95,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08085f', endColorstr='#08085f',GradientType=1 );
+
     right: 0;
     left: 0;
     box-shadow: 0px 2px 2px rgba(0,0,0,.5);
@@ -371,6 +396,13 @@ footer{
     -ms-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
     -moz-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
     -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+}
+.fixednavbig .nav_big ul li ul li a{
+    color:white;
+    background-color: #102675;
+}
+.fixednavbig .nav_big ul li a{
+    color:white;
 }
 @media (max-width: 768px) {
     .logo_footer{

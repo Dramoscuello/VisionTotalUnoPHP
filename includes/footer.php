@@ -26,9 +26,11 @@
                     <div><h5><span class="icon-location"></span> APARTADO - ANTIOQUIA Carrera 103 N 107 - 20 PISO 2 Barrio V&eacute;lez 094 - 8281716 - 3215443600</h5></div>
                
             </div>
-            <div class="col-md-3 articles_footer"><h4>Horarios de atenci&oacute;n</h4>
-                <div><h5><span class="icon-clock"></span> Lunes a viernes de 7:00 a.m. 12 pm y 2:00 pm - 6:00 p.m.</h5></div>
-                <div><h5><span class="icon-clock"></span> S&aacute;bado de 8:00 am - 11:00 am.</h5></div>
+            <div class="col-md-3 articles_footer certificaciones"><h4>Certificaciones</h4>
+                <ul>
+                    <li><img src="images/cert1.png"></li>
+                    <li><img src="images/cert2.png"></li>
+                </ul>
             </div>
             
             <div class="col-md-3 redes articles_footer"><h4>Redes Sociales</h4>

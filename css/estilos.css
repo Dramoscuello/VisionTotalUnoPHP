@@ -253,7 +253,16 @@ footer{
     margin-top: 25px;
 }
 
-
+.certificaciones ul{
+    list-style: none;
+}
+.certificaciones ul li{
+    display:inline-block;
+}
+.certificaciones img{
+    width:60px;
+    height:auto;
+}
 .redes ul{
     list-style: none;
 }

@@ -40,6 +40,26 @@
 				                </a>
 				            </figure>
 				        </div>
+				        <h4 id="titulo_ul_principalp1">Piso 1</h4>
+					       <ul id="ul_principalp1">
+					       		<li>Recepción central de citas</li>
+					       		<li>2 consultorios oftalmología</li>
+					       		<li>Caja</li>
+								<li>Servicio Farmacéutico</li>
+								<li>Programación de cirugías</li>
+					       </ul>
+					    <h4 id="titulo_ul_principalp2">Piso 2</h4>
+					    <ul id="ul_principalp2">
+					    	<li>4 Consultorios oftalmología</li>
+					    	<li>1 consultorio de Optometría</li>
+					    	<li>Administración</li>
+					    	<li>2 Recepciones</li>
+					    	<li>Gestión de Calidad</li>
+					    	<li>Gestión de Recursos Humanos y Seguridad y Salud en el Trabajo</li>
+					    	<li>Oficina de SIAU</li>
+					    </ul>
+					    <h4 id="titulo_ul_principalp3">Piso 3</h4>
+					    <ul id="ul_principalp3">2 salas Cirugía</ul>
 					</div>
 				</div>
 			</div>
@@ -58,7 +78,33 @@
 				                <img src="images/galeria/min/sede29.jpg" itemprop="thumbnail" alt="sede 29, vision total" />
 				                </a>							  
 				            </figure>
-				        </div>						
+				        </div>
+				        <h4 id="titulo_ayuda">Sede ayudas diagnósticas</h4>
+				        <ul id="ul_ayuda">
+				        	<li>Sala de  Exámenes y ayudas Diagnosticas</li>
+				        	<li>2 Consultorios oftalmológicos</li>
+				        	<li>Facturación</li>
+				        	<li>Call Center</li>
+				        </ul>			
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sedeapartado">
+			<div id="map-canvastres"></div>
+			<div class="container">
+				<div class="row">
+					<div id="apartado-info" class="col-xs-12 col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2">
+						<span class="icon-minus hidden-xs" id="apartado_icon"></span>
+						<h3 id="apartado_titulo"><span class="icon-location"></span> <strong>APARTADO – ANTIOQUIA</strong></h3>
+						<div id="apartado_text"><p>Carrera 103 N° 107-20 PISO 2 Barrio Vélez - 094-8281716 – 3215443600</p></div>
+						<h4 id="titulo_apartadop2">Piso 2</h4>
+						<ul id="ul_p2">
+							<li>Consultorios  Oftalmológicos</li>
+							<li>Recepción</li>
+							<li>Oficina de SIAU</li>
+							<li>Administración</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -118,6 +164,19 @@
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
 	<script>
+		var map2;
+		function initialize(){
+			var mapOptions = {
+				zoom: 19,
+				scrollwheel: false,
+				center: new google.maps.LatLng(7.8828061, -76.6339467)
+			};
+			map2 = new google.maps.Map(document.getElementById('map-canvastres'),
+			mapOptions);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<script>
 		var map1;
 		function initialize(){
 			var mapOptions = {
@@ -139,6 +198,12 @@
 					$('#principal_icon').addClass('icon-plus');
 					document.getElementById('principal-info').style.height = "20px";
 					document.getElementById('principal_titulo').style.display = "none";
+					document.getElementById('titulo_ul_principalp1').style.display = "none";
+					document.getElementById('ul_principalp1').style.display = "none";
+					document.getElementById('titulo_ul_principalp2').style.display = "none";
+					document.getElementById('ul_principalp2').style.display = "none";
+					document.getElementById('titulo_ul_principalp3').style.display = "none";
+					document.getElementById('ul_principalp3').style.display = "none";
 					document.getElementById('principal_text').style.display = "none";
 					document.getElementById('principal_galeria').style.display = "none";
 					menos = false;
@@ -146,7 +211,14 @@
 					$('#principal_icon').removeClass('icon-plus');
 					$('#principal_icon').addClass('icon-minus');
 					document.getElementById('principal-info').style.height = "300px";
+					document.getElementById('principal-info').overflow = "auto";
 					document.getElementById('principal_titulo').style.display = "block";
+					document.getElementById('titulo_ul_principalp1').style.display = "block";
+					document.getElementById('ul_principalp1').style.display = "block";
+					document.getElementById('titulo_ul_principalp2').style.display = "block";
+					document.getElementById('ul_principalp2').style.display = "block";
+					document.getElementById('titulo_ul_principalp3').style.display = "block";
+					document.getElementById('ul_principalp3').style.display = "block";
 					document.getElementById('principal_text').style.display = "block";
 					document.getElementById('principal_galeria').style.display = "block";
 					menos = true;
@@ -159,24 +231,54 @@
 					$('#ayudas_icon').removeClass('icon-minus');
 					$('#ayudas_icon').addClass('icon-plus');
 					document.getElementById('ayudas-info').style.height = "20px";
+					document.getElementById('ayudas-info').style.overflow = "auto";
 					document.getElementById('ayudas_titulo').style.display = "none";
 					document.getElementById('ayudas_text').style.display = "none";
+					document.getElementById('titulo_ayuda').style.display = "none";
+					document.getElementById('ul_ayuda').style.display = "none";
 					document.getElementById('ayudas_galeria').style.display = "none";
 					ayuda = false;
 				}else{
 					$('#ayudas_icon').removeClass('icon-plus');
 					$('#ayudas_icon').addClass('icon-minus');
 					document.getElementById('ayudas-info').style.height = "300px";
+					document.getElementById('ayudas-info').style.overflow = "auto";
 					document.getElementById('ayudas_titulo').style.display = "block";
 					document.getElementById('ayudas_text').style.display = "block";
+					document.getElementById('titulo_ayuda').style.display = "block";
+					document.getElementById('ul_ayuda').style.display = "block";
 					document.getElementById('ayudas_galeria').style.display = "block";
 					ayuda = true;
+				}
+				
+			}
+			var apartv = true;
+			function apartadofunc(){
+				if (apartv == true) {
+					$('#apartado_icon').removeClass('icon-minus');
+					$('#apartado_icon').addClass('icon-plus');
+					document.getElementById('apartado-info').style.height = "20px";
+					document.getElementById('apartado_titulo').style.display = "none";
+					document.getElementById('apartado_text').style.display = "none";
+					document.getElementById('titulo_apartadop2').style.display = "none";
+					document.getElementById('ul_p2').style.display = "none";
+					apartv = false;
+				}else{
+					$('#apartado_icon').removeClass('icon-plus');
+					$('#apartado_icon').addClass('icon-minus');
+					document.getElementById('apartado-info').style.height = "300px";
+					document.getElementById('apartado_titulo').style.display = "block";
+					document.getElementById('apartado_text').style.display = "block";
+					document.getElementById('titulo_apartadop2').style.display = "block";
+					document.getElementById('ul_p2').style.display = "block";
+					apartv = true;
 				}
 				
 			}
 
 			$('#principal_icon').on('click', main);
 			$('#ayudas_icon').on('click', ayudasf);
+			$('#apartado_icon').on('click', apartadofunc);
 		});
 	</script>
 	

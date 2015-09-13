@@ -25,7 +25,7 @@
                         <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>
                     </ul>
                 </li>
-                <li><a href="#"><span class="icon-checkmark2"></span> Novedades</a></li>
+                <li><a href="novedades.php"><span class="icon-checkmark2"></span> Novedades</a></li>
                 <li><a href="contacto.php"><span class="icon-mail4"></span> Contacto</a></li>
             </ul>
         </nav>
@@ -100,7 +100,7 @@
                                         <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#"><span class="icon-checkmark2"></span> NOVEDADES</a></li>
+                                <li><a href="novedades.php"><span class="icon-checkmark2"></span> NOVEDADES</a></li>
                             </ul>
                         </nav>
                     </div>

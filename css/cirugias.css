@@ -1,7 +1,7 @@
-.body_contacto{
-	margin: 30px 0px;
+.body_cirugias{
+	margin:30px 0px;
 }
-.titulo_contacto{
+.titulo_cirugias{
 	border-radius: 5px;
     background: rgb(8,8,95);
 background: -moz-linear-gradient(-45deg,  rgba(8,8,95,1) 0%, rgba(30,87,153,1) 81%, rgba(8,8,95,1) 100%);
@@ -16,13 +16,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08085f', end
     text-align: center;
     margin-bottom: 10px; 
 }
-.imagen_contacto{
-	width:100%;
-	height: auto;
-	box-shadow: 0px 0px 5px black;
+.contenido_ul_cirugias{
+	padding: 15px;
+	margin-bottom: 10px;
+	background-color: white;
 }
-@media (max-width: 768px) {
-	.titulo_contacto h2{
-		font-size: 20px;
-	}
-}	
+.contenido_ul_cirugias ul{
+	padding:10px;
+}
+.imagen_cirugias{
+	width:100%;
+	height:auto;
+}

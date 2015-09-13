@@ -47,7 +47,7 @@
 					</ul>
 				</div>
 				<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-					<img src="images/examenes.jpg" alt="examenes, vision total" class="imagen_examen">
+					<img src="images/examenes.jpg" alt="examenes, vision total" class="imagen_examen img-thumbnail">
 				</div>
 			</div>
 		</div>

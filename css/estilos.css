@@ -415,6 +415,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08085f', end
     color:white;
 }
 @media (max-width: 768px) {
+    #titulo_vision_xs h1{
+        font-size: 1.4em;
+    }
     .logo_footer{
         float: none;
     }

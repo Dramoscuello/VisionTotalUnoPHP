@@ -7,7 +7,7 @@ include_once("PHPMailerAutoload.php");
 	$email = $_POST["email_remitente"];
 	$asunto = $_POST["asunto_remitente"];
 	$mensaje = $_POST["mensaje_remitente"];
-	$para = "dramoscuello1@gmail.com";
+	$para = "info@visiontotaleu.com";
 	/*$cabeceras = "MIME-Version: 1.0\r\n";
 	$cabeceras .= "Content-type: text/html; charset=iso-8859-1 \r\n";
 	$cabeceras .= "From $remitente_nombre \r\n";*/
@@ -18,22 +18,21 @@ include_once("PHPMailerAutoload.php");
 	$mail->IsSMTP();
 	$mail->SMTPAuth = true;
 	$mail->SMTPSecure = 'ssl';
-	$mail->Host = "ssl://smtp.gmail.com";
+	$mail->Host = "hydrogen.redexpertos.com";
 	$mail->Port = 465;
 
 
-	$mail->Username = "dramos.cuello@gmail.com";
-	$mail->Password = "deimer030293";
+	$mail->Username = "visionto";
+	$mail->Password = "Vtotal83050";
+	$mail->IsHTML(true);
 
-
-	$mail->From = ($email);
+	$mail->From = $email;
 	$mail->FromName = ($nombre);
 	$mail->AddAddress ($para);	
 	$mail->Subject = $asunto;
 	$mail->Body = $mensaje;
 	// $mail->wordwrap = 50;
 	$mail->MsgHTML($mensaje);
-	$mail->Send();
 	if ($mail->Send()) {
 		$respuesta = "El mensaje se ha enviado conrrectamente";		
 	}else{

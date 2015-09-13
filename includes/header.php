@@ -59,7 +59,7 @@
                         <span class="icon-list2 icon-xs col-xs-2 col-sm-1" id="mostrar-nav"></span>
                          <div class="col-xs-8 col-sm-10" id="logo_xs_xs">
                             <a href="index.php" id="titulo_vision_xs">
-                                <h1><img src="images/logo_vision.png" alt="Logo principal, Visión total"> VISION TOTAL</h1>
+                                <h1><img src="images/logo_vision_xs.png" alt="Logo principal, Visión total"> VISION TOTAL</h1>
                              </a>
                          </div>
                          <span class="icon-search icon-xs col-xs-2 col-sm-1"></span>

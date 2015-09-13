@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                    <a href="#" class="botones_apartado" id="citas"><span class="icon-users"></span> Citas particulares</a>
+                    <a href="contacto.php" class="botones_apartado" id="citas"><span class="icon-users"></span> Citas particulares</a>
                     <a href="#" class="botones_apartado" id="drogueria"><span class="icon-lab"></span> Drogueria</a>
                     <a href="examenes_y_dagnosticos.php" class="botones_apartado" id="examenes"><span class="icon-file-text"></span> Exámenes diagnosticos</a>
                     <a href="procedimientos_quirurgicos.php" class="botones_apartado" id="cirugias"><span class="icon-eye"></span> Cirugias oftalmológicas</a>
@@ -94,21 +94,17 @@
                         <div class="row">
                             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12"><h3>Video institucional</h3>
                                  <img src="images/video_boton.jpg" class="img-circle video_boton">
-                                <p>Doctrina lorem cupidatat commodo. Offendit enim quem ne multos, de labore 
-                                    aliquip, amet non nostrud quo doctrina multos quae hic esse, ab tamen 
-                                    graviterque.</p>
+                                <p>Reproduzca nuestro video institucional.</p>
                                 <a href="construccion.php" class="button_body"> Ver más </a>
                             </div>
                             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12"><h3>Indicaciones exámenes</h3>
                                  <img src="images/CHECKLLIST.jpg" class="img-circle checklist">
-                                <p>Ad eram mandaremus ingeniis, possumus magna veniam offendit eram qui amet 
-                                    senserit arbitrantur.</p>
-                                <a href="#" class="button_body"> Ver más </a>
+                                <p>Lea acerca de las indicaciones de los examenes</p>
+                                <a href="indicaciones_pacientes.php" class="button_body"> Ver más </a>
                             </div>
                             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12"><h3>Testimonios</h3>
                                  <img src="images/testimonio.jpg" class="img-circle">
-                                <p>Sunt exquisitaque possumus malis nostrud, nisi incurreret philosophari, ad 
-                                    quorum incurreret sempiternum.</p>
+                                <p>Lea algunos de los testimonios de nuestros pacientes, hablando sobre la calidad de nuestro servicio</p>
                                 <a href="construccion.php" class="button_body"> Ver más </a>
                             </div>
                         </div>

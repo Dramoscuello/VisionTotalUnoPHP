@@ -26,7 +26,7 @@
 					<div class="collapse" id="definicion">
   						<div class="well">
   							<p>Es un tumor no canceroso del tejido delgado y transparente que recubre la parte blanca del ojo (conjuntiva) y puede comprometer ambos ojos.</p>
-  							<img src="images/pterigion.jpg" width="100%">
+  							<img src="images/pterigion.jpg" class="image_articulo">
   							<p>Causas, incidencia y factores de riesgo La causa se desconoce, pero puede ser más común en las personas que han sufrido exposición a la luz solar o al viento en exceso, como en el caso de aquellas personas que trabajan al aire libre.
 Entre los factores de riesgo se pueden mencionar la exposición en áreas soleadas, polvorientas, arenosas o de mucho viento. Los campesinos, los pescadores y las personas que habitan cerca del ecuador son quienes con frecuencia resultan afectados y es un trastorno poco común en niños.
 </p>

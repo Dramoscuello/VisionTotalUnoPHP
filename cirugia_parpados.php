@@ -26,7 +26,7 @@
 					<div class="collapse" id="definicion">
   						<div class="well">
   							<p>Al avanzar de edad, la piel del párpado se estira, los músculos se debilitan y la grasa se acumula alrededor de los ojos ocasionando que se formen "bolsas" en la parte superior e inferior. Los mejores candidatos para cirugía del párpado.</p>
-  							<img src="images/parpados1.jpg" width="156px">
+  							<img src="images/parpados1.jpg" width="156px" class="image_articulo">
   						</div>
 					</div>
 				</div>
@@ -37,13 +37,13 @@
 					<div class="collapse" id="pasos">
   						<div class="well">
   							<p>Antes de la cirugía, el cirujano marca los puntos de incisión siguiendo las líneas y pliegues naturales de los párpados superiores e inferiores. </p>
-  							<img src="images/parpados2.jpg">
+  							<img src="images/parpados2.jpg" class="image_articulo">
   							<p>Se puede extraer la grasa que está por debajo de la piel, así como el exceso de la piel y músculo. </p>
-  							<img src="images/parpados3.jpg">
+  							<img src="images/parpados3.jpg" class="image_articulo">
   							<p>El cirujano cierra las incisiones con suturas muy finas, lo cual deja cicatrices que son casi invisibles.</p>
-  							<img src="images/parpados4.jpg">
+  							<img src="images/parpados4.jpg" class="image_articulo">
   							<p>En una blefaroplastia transconjuntival, se realiza una pequeña incisión en el párpado inferior extrayendo las grasa con fórceps muy finos. No se extrae piel y la incisión se cierra con suturas que se disuelven solas.</p>
-  							<img src="images/parpados5.jpg">
+  							<img src="images/parpados5.jpg" class="image_articulo">
   						</div>
 					</div>
 				</div>

@@ -97,7 +97,7 @@
                                 <p>Doctrina lorem cupidatat commodo. Offendit enim quem ne multos, de labore 
                                     aliquip, amet non nostrud quo doctrina multos quae hic esse, ab tamen 
                                     graviterque.</p>
-                                <a href="#" class="button_body"> Ver más </a>
+                                <a href="construccion.php" class="button_body"> Ver más </a>
                             </div>
                             <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12"><h3>Indicaciones exámenes</h3>
                                  <img src="images/CHECKLLIST.jpg" class="img-circle checklist">
@@ -109,7 +109,7 @@
                                  <img src="images/testimonio.jpg" class="img-circle">
                                 <p>Sunt exquisitaque possumus malis nostrud, nisi incurreret philosophari, ad 
                                     quorum incurreret sempiternum.</p>
-                                <a href="#" class="button_body"> Ver más </a>
+                                <a href="construccion.php" class="button_body"> Ver más </a>
                             </div>
                         </div>
                     </div>

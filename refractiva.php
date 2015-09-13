@@ -40,7 +40,7 @@ La Cirugía Refractiva es un procedimiento de vanguardia para la corrección de 
 					<div class="collapse col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 col-sm-10 col-sm-offset-2 col-xs-12" id="sintomas">
   						<div class="well col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 col-sm-10 col-sm-offset-2 col-xs-12">
   							<p>Anestesia local con gotas oftálmicas. Colocación de un separador de parpados, queratotomia con microqueratomo (Levantamiento de colgajo de córnea), acción del láser sobre el estroma de la cornea y reubicación del colgajo.</p>
-  							<img src="images/refractiva.png" width="100%">
+  							<img src="images/refractiva.png" class="image_articulo">
   						</div>
 					</div>
 			</div>

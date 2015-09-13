@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-					<form class="form-horizontal" name="mail_form" action="enviar_mail.php" method="post" enctype="application/x-www-form-urlencoded">
+					<form class="form-horizontal" name="mail_form" action="enviar_mail.php" method="post" enctype="multipart/form-data">
 		              <div class="form-group">
 		                <label for="nombre" class="col-md-4 control-label"><span class="glyphicon glyphicon-user"></span> Nombres y apellidos:</label>
 		                <div class="col-md-8">
@@ -32,12 +32,6 @@
 		                  <input type="email" class="form-control" id="email" name="email_remitente"placeholder="Email" required>
 		                </div>
 		              </div>
-		                <div class="form-group">
-		                <label for="telefono" class="col-md-4 control-label"><span class="glyphicon glyphicon-earphone"></span> Telefono:</label>
-		                <div class="col-md-8">
-		                  <input type="tel" class="form-control" id="telefono" name="telefono_remitente" placeholder="Telefono (opcional)">
-		                </div>
-		              	</div>
 		              	<div class="form-group">
 		                <label for="asunto" class="col-md-4 control-label"><span class="glyphicon glyphicon-tag"></span> Asunto:</label>
 		                <div class="col-md-8">
@@ -52,6 +46,7 @@
 		              </div>
 		              <div class="form-group">
 		                <div class="col-sm-offset-2 col-sm-10">
+		                	
 		                  <button type="submit" class="btn btn-primary" name="enviar_mail"><span class="glyphicon glyphicon-send"></span> Enviar</button>
 		                </div>
 		              </div>

@@ -39,3 +39,8 @@ color:white;
 .sub_a:link{
 	color:white;
 }
+@media (max-width: 768px) {
+	.image_articulo{
+		width:100%;
+	}
+}

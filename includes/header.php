@@ -17,9 +17,8 @@
                 <li><a href="sedes.php"><span class="icon-office"></span> Sedes</a></li>
                 <li class="pacientes_show"><a href="#"><span class="icon-aid-kit"></span> Pacientes <span class="glyphicon glyphicon-chevron-down"></span></a>
                     <ul class="pacientes_hidden">
-                        <li><a href="#">Paciente internacional</a></li>
-                        <li><a href="#">medios y formas de pago</a></li>
-                        <li><a href="#">guia del usuario</a></li>
+                        <li><a href="paciente_internacional.php">Paciente internacional</a></li>
+                        <li><a href="construccion.php">medios y formas de pago</a></li>
                         <li><a href="deberes_y_derechos.php">deberes y derechos</a></li>
                         <li><a href="indicaciones_pacientes.php">indicaciones pre y post operatorias</a></li>
                         <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>
@@ -92,9 +91,8 @@
                                 <li><a href="sedes.php"><span class="icon-office"></span> SEDES</a></li>
                                 <li><a href="#"><span class="icon-aid-kit"></span> PACIENTES <span class="glyphicon glyphicon-chevron-down"></span></a>
                                     <ul>
-                                        <li><a href="#">Paciente internacional</a></li>
-                                        <li><a href="#">medios y formas de pago</a></li>
-                                        <li><a href="#">guia del usuario</a></li>
+                                        <li><a href="paciente_internacional.php">Paciente internacional</a></li>
+                                        <li><a href="construccion.php">medios y formas de pago</a></li>
                                         <li><a href="deberes_y_derechos.php">deberes y derechos</a></li>
                                         <li><a href="indicaciones_pacientes.php">indicaciones pre y post operatorias</a></li>
                                         <li><a href="#">indicaciones de ayudas y ex&aacute;menes</a></li>

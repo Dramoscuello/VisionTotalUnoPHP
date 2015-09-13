@@ -125,6 +125,10 @@ Carrera 29 # 14-99 Piso 1 Doosta, B/ El Campestre  Tel: 762 5736
 </li>
                         </ul>
                   </div>
+                  <h3>ESTADOS FINANCIEROS <span class="glyphicon glyphicon-chevron-down"></span></h3>
+                  <div>
+                    <a href="assets/judicial.pdf">Circular 006 de 2014</a>
+                  </div>
                 </div>
             </div>
                 </div>

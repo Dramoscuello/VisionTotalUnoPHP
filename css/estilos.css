@@ -33,8 +33,12 @@ header{
     text-decoration: none;
 }
 #titulo_vision h1{
-    margin: 2px;
-    padding:2px;
+    margin-top: 10px;
+    padding-top:5px;
+    font-size: 46px;
+    font-family: 'PT Serif', serif;
+        letter-spacing: -0.07em;
+    font-weight: bold;
 }
 #titulo_vision_xs{
     margin: 0;
@@ -47,6 +51,7 @@ header{
     text-decoration: none;
 }
 #titulo_vision_xs h1{
+    font-family: 'PT Serif', serif;
     margin: 2px;
     padding:2px;
 }

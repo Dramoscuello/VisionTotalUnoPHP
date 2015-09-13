@@ -355,6 +355,9 @@ footer{
 	transition: all .3s;
 	z-index: 20;
 }
+#logo_xs_xs{
+    text-align: center;
+}
 
 .nav_mov.mostrar {
 	left: 0;

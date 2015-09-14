@@ -34,7 +34,7 @@ include_once("PHPMailerAutoload.php");
 	// $mail->wordwrap = 50;
 	$mail->MsgHTML($mensaje);
 	if ($mail->Send()) {
-		$respuesta = "El mensaje se ha enviado conrrectamente";		
+		$respuesta = "El mensaje se ha enviado correctamente";		
 	}else{
 		$respuesta = "Ocurrio un problema ";
 		$respuesta .= "Error: ".$mail->ErrorInfo;

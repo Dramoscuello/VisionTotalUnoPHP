@@ -7,7 +7,6 @@
         <title>Visión Total</title>
         <?php include 'includes/head_common.php'; ?>
         <link rel="stylesheet" href="css/quienes.css">
-        <link rel="stylesheet" href="css/jquery-ui.css">
     </head>
     <body>
         <?php include 'includes/header.php'; ?>
@@ -19,34 +18,82 @@
                         <h2><img src="images/logo_navegacion.png"> Quienes somos</h2>
                     </div> 
                     
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 acordeon">
-                <div id="accordion">
-                  <h3>PRESENTACIÓN <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <p>VISION TOTAL S.A.S., es una institución  que se ha preparado para asumir el reto de la prestación de los servicios de salud,  con énfasis en salud visual, dentro del nuevo marco de la seguridad social en salud; ofreciendo a la comunidad servicios de alta calidad en busca de un futuro cada vez más saludable.<br>
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="presentacion">
+                            <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsepresentacion" aria-expanded="true" aria-controls="collapseOne">
+                                PRESENTACIÓN <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapsepresentacion" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="presentacion">
+                            <div class="panel-body">
+                              <p>VISION TOTAL S.A.S., es una institución  que se ha preparado para asumir el reto de la prestación de los servicios de salud,  con énfasis en salud visual, dentro del nuevo marco de la seguridad social en salud; ofreciendo a la comunidad servicios de alta calidad en busca de un futuro cada vez más saludable.<br>
                             <br>
 
 
 Nuestro compromiso es prestar servicios cada día más eficientes y oportunos, garantizando estándares de calidad que contribuyan  al mejoramiento de la salud visual  de nuestra población.
 </p>
-                  </div>
-                  <h3>MISION <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <p>VISIÓN TOTAL S.A.S., es una Institución Prestadora de Servicios de Salud Visual, respetuosa de los derechos de los pacientes, que trabaja en pro de su seguridad, bajo estándares de calidad, apoyados en un equipo humano idóneo y una infraestructura adecuada para la atención.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="mision">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsemision" aria-expanded="false" aria-controls="collapseTwo">
+                                MISION <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapsemision" class="panel-collapse collapse" role="tabpanel" aria-labelledby="mision">
+                            <div class="panel-body">
+                              <p>VISIÓN TOTAL S.A.S., es una Institución Prestadora de Servicios de Salud Visual, respetuosa de los derechos de los pacientes, que trabaja en pro de su seguridad, bajo estándares de calidad, apoyados en un equipo humano idóneo y una infraestructura adecuada para la atención.</p>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="vision">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsevision" aria-expanded="false" aria-controls="collapseThree">
+                                VISION <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapsevision" class="panel-collapse collapse" role="tabpanel" aria-labelledby="vision">
+                            <div class="panel-body">
+                              <p>VISIÓN TOTAL S.A.S., será para el año 2017, una organización con participación creciente en el mercado nacional, con presencia internacional y Socialmente Responsable; manteniendo altos estándares de calidad. </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="politicas">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsepoliticas" aria-expanded="false" aria-controls="collapseThree">
+                                POLITICAS DE CALIDAD <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapsepoliticas" class="panel-collapse collapse" role="tabpanel" aria-labelledby="politicas">
+                            <div class="panel-body">
+                              <p>VISIÓN TOTAL S.A.S., es una Institución Prestadora de Servicios de Salud Visual, acorde a los requerimientos de nuestros Clientes y STAKEHOLDERS, mediante el mejoramiento continuo de nuestros procesos y el desarrollo de las competencias de nuestro personal, con el objetivo de generar valor para la empresa.
 </p>
-                  </div>
-                  <h3>VISION <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <p>VISIÓN TOTAL S.A.S., será para el año 2017, una organización con participación creciente en el mercado nacional, con presencia internacional y Socialmente Responsable; manteniendo altos estándares de calidad. </p>
-                  </div>
-                  <h3>POLITICAS DE CALIDAD <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <p>VISIÓN TOTAL S.A.S., es una Institución Prestadora de Servicios de Salud Visual, acorde a los requerimientos de nuestros Clientes y STAKEHOLDERS, mediante el mejoramiento continuo de nuestros procesos y el desarrollo de las competencias de nuestro personal, con el objetivo de generar valor para la empresa.
-</p>
-                  </div>
-                    <h3>OBJETIVOS <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="objetivos">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseobjetivos" aria-expanded="false" aria-controls="collapseThree">
+                                OBJETIVOS <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseobjetivos" class="panel-collapse collapse" role="tabpanel" aria-labelledby="objetivos">
+                            <div class="panel-body objetivos_ul">
+                              <ul>
                             <li>Incrementar la Participación en el Mercado Nacional.
 </li>
                             <li>Incrementar el Valor de la Empresa en el Tiempo.
@@ -60,10 +107,20 @@ Nuestro compromiso es prestar servicios cada día más eficientes y oportunos, g
                             <li>Aumentar el Grado de Satisfacción del Personal de la Organización.
 </li>
                         </ul>
-                  </div>
-                    <h3>VALORES <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="valores">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsevalores" aria-expanded="false" aria-controls="collapseThree">
+                                VALORES <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapsevalores" class="panel-collapse collapse" role="tabpanel" aria-labelledby="valores">
+                            <div class="panel-body ul_valores">
+                              <ul>
                             <li>Calidez
 
 </li>
@@ -93,10 +150,20 @@ Nuestro compromiso es prestar servicios cada día más eficientes y oportunos, g
 </li>
                             
                         </ul>
-                  </div>
-                    <h3>RED DE PRESTADORES <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="red">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsered" aria-expanded="false" aria-controls="collapseThree">
+                                RED DE PRESTADORES <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapsered" class="panel-collapse collapse" role="tabpanel" aria-labelledby="red">
+                            <div class="panel-body ul_red">
+                              <ul>
                             <li>Tierralta, Fundación Solidaria IPS
 Sábados Cada 15 días 
 Calle 5 # 11-10 barrio El Prado. Teléfono. 777 1382
@@ -124,12 +191,24 @@ Carrera 29 # 14-99 Piso 1 Doosta, B/ El Campestre  Tel: 762 5736
 
 </li>
                         </ul>
-                  </div>
-                  <h3>ESTADOS FINANCIEROS <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                  <div>
-                    <a href="assets/judicial.pdf">Circular 006 de 2014</a>
-                  </div>
-                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="estados">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseestados" aria-expanded="false" aria-controls="collapseThree">
+                                ESTADOS FINANCIEROS <span class="glyphicon glyphicon-chevron-down"></span>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseestados" class="panel-collapse collapse" role="tabpanel" aria-labelledby="estados">
+                            <div class="panel-body">
+                              <a href="assets/judicial.pdf" class="judicial">&rarr; Circular 006 de 2014 &larr;</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
             </div>
                 </div>
             </div>
@@ -141,11 +220,5 @@ Carrera 29 # 14-99 Piso 1 Doosta, B/ El Campestre  Tel: 762 5736
         
         
         <?php include 'includes/foot_common.php'; ?>
-        <script src="js/jquery-ui.js"></script>
-        <script>
-        $(document).ready(function() {
-             $( "#accordion" ).accordion();
-         });
-        </script>
     </body>       
 </html>
